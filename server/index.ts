@@ -56,7 +56,7 @@ app.use((req, res, next) => {
     }
 
     // Use environment port or fallback to 5000
-    const port = process.env.PORT || 5000;
+    const port = process.env.PORT || 3000;
 
     // More detailed error handling for server startup
     server.listen(port, "127.0.0.1", () => {
