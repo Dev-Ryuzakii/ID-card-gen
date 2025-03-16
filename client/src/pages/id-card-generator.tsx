@@ -11,7 +11,7 @@ export default function IdCardGenerator() {
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
-          ID Card Generator
+           Edtech COE ID Card Generator
         </h1>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

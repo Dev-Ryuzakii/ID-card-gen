@@ -9,6 +9,9 @@ interface IdCardPreviewProps {
   data: InsertIdCard | null;
 }
 
+// Logo URL as a constant
+const EDTECH_LOGO = "../../assets/edtechcoe.png"; // Fallback logo
+
 export default function IdCardPreview({ data }: IdCardPreviewProps) {
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -51,7 +54,7 @@ export default function IdCardPreview({ data }: IdCardPreviewProps) {
         <div className="flex items-center justify-between mb-6 border-b pb-4">
           <div className="flex items-center gap-4">
             <img
-              src="/attached_assets/image_1742153522082.png"
+              src={EDTECH_LOGO}
               alt="EdTech COE Logo"
               className="h-16 w-16 object-contain"
             />
